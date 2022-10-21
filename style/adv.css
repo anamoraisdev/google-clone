@@ -1,0 +1,195 @@
+/* Comentario de CSS */
+body{
+    font-family: Arial, sans-serif;
+}
+.imgadv{
+    width: 100px;
+    display:flex;
+    width: 6%;
+    position: relative;
+    left:10px;
+}
+button img{
+    width: 2px;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 98%;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+section header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 10px;
+}
+section header ul li a{
+    color: rgb(96, 95, 95);
+    font-size: 13px;
+    text-decoration: none;
+    list-style: none;
+}
+section header ul li a:hover{
+    text-decoration: underline; 
+}
+section header ul button{
+    background-color: rgb(122, 122, 245);
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 14px;
+    border: 0;
+    outline: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0,4s all ease-in-out;
+}
+section header ul button:hover{
+    background-color: rgba(46, 84, 210, 0.866);
+}
+section header ul button img {
+    width: 17px;
+}
+.buttongrid{
+    background-color: rgb(255, 255, 255);
+    border-style:dashed;
+    border-radius: 200px;
+    border: 0px;
+    outline: none;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: 0,4s all ease-in-out; 
+}
+.buttongrid:hover{
+    background-color: rgba(239, 239, 239, 0.866);
+}
+
+.button{
+    position: relative;
+    top: 20px;
+    left: 70%;
+    background-color: rgb(122, 122, 245);
+    border-radius: 3px;
+    color: aliceblue;
+    font-size: 14px;
+    border: 0;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: 0,4s all ease-in-out;
+}
+.button:hover{
+    background-color: rgba(46, 84, 210, 0.866);
+}
+.text-title{
+    position: relative;
+    color: rgb(207, 39, 39);
+    font-size: 20px;
+    left: 30px;
+}
+
+.text-subtitle{
+    font-size: 16px;
+    position: relative;
+    color: black;
+    left: 30px;
+    top: 20px;
+}
+.formposition{
+    position: relative;
+    top: 30px;
+    left: 0%;
+}
+main form ol{
+    list-style: none;
+}
+main form ol li input{
+    width: 50%;
+    border-style:ridge;
+    border-color: rgba(250, 250, 250, 0.531);
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 24px;
+}
+main form ol li input:focus{
+    outline: none;
+}
+main form ol li input:hover{
+    border: 1px solid transparent;
+    border-color: rgb(83, 83, 247);
+}
+footer{
+    background-color: rgb(244, 244, 244); 
+    position: relative;
+    top: 173px;
+    height: 88px;
+}
+footer div{
+    display: flex;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    left:80%;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    left: 100px;
+}
+footer ol{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    width: 75%;
+}
+footer ul li a{
+    color: rgb(96, 95, 95);
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+footer ul li a:hover{
+    text-decoration: underline; 
+}
+footer ol li a{
+    color: rgb(96, 95, 95);
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer ol li a:hover{
+    text-decoration: underline; 
+}
+footer p{
+    position: relative;
+    color: rgb(96, 95, 95);
+    font-size: 15px;
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+}
+.p{
+    top: 12px;
+    left: 20px;
+}
+div ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+div ul li a:hover{
+    text-decoration:underline ;
+}
+div ul {
+    list-style: none;
+} 
