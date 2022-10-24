@@ -11,7 +11,6 @@
 
 <body>
     <section>
-        <a href="index.html"><img src="./img/logo.png" class="imgadv"></a>
         <!-- Inicio do header -->
         <header>
             <ul> 
@@ -21,21 +20,28 @@
                 <button> Sign in</button> 
             </ul>  
         </header>
+        <a href="index.html"><img src="./img/google.png" class="imgadv"></a>
         <!-- Inicio do main -->
         <main>
             <p class="text-title">Advanced Search</p>
-            <hr>
+            <div class="linha"></div>
             <p class="text-subtitle"> Find pages with... </p>
-            <form action="https://www.google.com/search" class="formposition">
-                <ol>
-                    <li> all these words: <input type="text" name="q"></li>
-                    <li> this exact word or phrase: <input type="text" name="as_epq"></li>
-                    <li> any of these words: <input type="text" name="as_oq"></li>
-                    <li> none of these words: <input type="text" name="as_eq"></li>
-                </ol>
-                <input type="submit" value="Advance search" class="button">
+            <form action="https://www.google.com/search" class="">
+                <div class="formposition-value">
+                    <li> all these words: </li>
+                    <li> this exact word or phrase: </li>
+                    <li> any of these words: </li>
+                    <li> none of these words:</li>
+                </div>
+                <div class="formposition-search">
+                    <input type="text" name="q" class="form-search">
+                    <input type="text" name="as_epq" class="form-search">
+                    <input type="text" name="as_oq" class="form-search">
+                    <input type="text" name="as_eq" class="form-search">
+                </div>
             </form>
         </main>
+        <input type="submit" value="Advance search" class="button">
         <!-- Inicio da descrição -->
         <div class="text-container">
             <p>You can also...</p>
