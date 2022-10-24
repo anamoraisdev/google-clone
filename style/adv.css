@@ -70,6 +70,8 @@ section header ul button img {
 }
 /* button */
 .button{
+    margin-right: 10px;
+    float: right;
     background-color: rgb(122, 122, 245);
     border-radius: 3px;
     color: aliceblue;
@@ -112,8 +114,8 @@ section header ul button img {
 }
 .form-search:focus{
     outline: none;
-    border: 1px solid transparent;
-    border-color: #5353f7a2;
+    border: 1px solid #4d90fe;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%);
 }
 .container-search{
     display: flex;
@@ -122,7 +124,8 @@ section header ul button img {
     width: 220px;
 }
 .form-value{
-    margin: 32px;
+    width: 60%;
+    margin-left: 30px;
 }
 /* css footer*/
 footer{
