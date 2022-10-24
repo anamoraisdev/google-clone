@@ -134,8 +134,10 @@ main{
 /* css footer*/
 footer{
     background-color: rgb(244, 244, 244); 
-    align-content: flex-end;
-    align-items: flex-end;
+    position: absolute;
+    height: 120px;
+    width: 100vw;
+    top: calc(100vh - 130px);
 }
 footer div{
     display: flex;
