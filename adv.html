@@ -26,22 +26,28 @@
             <p class="text-title">Advanced Search</p>
             <div class="linha"></div>
             <p class="text-subtitle"> Find pages with... </p>
-            <form action="https://www.google.com/search" class="">
-                <div class="formposition-value">
-                    <li> all these words: </li>
-                    <li> this exact word or phrase: </li>
-                    <li> any of these words: </li>
-                    <li> none of these words:</li>
-                </div>
-                <div class="formposition-search">
-                    <input type="text" name="q" class="form-search">
-                    <input type="text" name="as_epq" class="form-search">
-                    <input type="text" name="as_oq" class="form-search">
-                    <input type="text" name="as_eq" class="form-search">
+            <form action="https://www.google.com/search">
+                <div class="form-value">
+                    <div class="container-search">
+                        <p> all these words: </p>
+                        <input type="text" name="q" class="form-search">
+                    </div>
+                    <div class="container-search">
+                        <p> this exact word or phrase: </p>
+                        <input type="text" name="as_epq" class="form-search">
+                    </div>
+                    <div class="container-search">
+                        <p> any of these words: </p>
+                        <input type="text" name="as_oq" class="form-search">
+                    </div>
+                    <div class="container-search">
+                        <p> none of these words:</p>
+                        <input type="text" name="as_eq" class="form-search">
+                    </div>
+                    <input type="submit" value="Advance search" class="button">
                 </div>
             </form>
         </main>
-        <input type="submit" value="Advance search" class="button">
         <!-- Inicio da descrição -->
         <div class="text-container">
             <p>You can also...</p>

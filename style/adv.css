@@ -1,4 +1,4 @@
-/* Comentario de CSS */
+/* CSS header */
 body{
     font-family: Arial, sans-serif;
 }
@@ -68,7 +68,7 @@ section header ul button img {
 .buttongrid:hover{
     background-color: rgba(239, 239, 239, 0.866);
 }
-
+/* button */
 .button{
     background-color: rgb(122, 122, 245);
     border-radius: 3px;
@@ -97,23 +97,32 @@ section header ul button img {
     left: 30px;
     top: 20px;
 }
-main form li{
-    list-style: none;
-}
-main form .form-search{
-    width: 50%;
-    border-style:ridge;
-    border-color: rgba(250, 250, 250, 0.531);
+/* pesquisa */
+.form-search{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 560px;
+    height: 25px;
+    font-size: 13px;
     background-color: rgb(255, 255, 255);
-    width: 500px;
-    height: 24px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
 }
-main form .form-search:focus{
+.form-search:focus{
     outline: none;
-}
-main form .form-search:hover{
     border: 1px solid transparent;
-    border-color: rgb(83, 83, 247);
+    border-color: #5353f7a2;
+}
+.container-search{
+    display: flex;
+}
+.container-search p{
+    width: 220px;
+}
+.form-value{
+    margin: 32px;
 }
 /* css footer*/
 footer{
