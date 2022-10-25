@@ -83,8 +83,12 @@ a img{
     border-style:ridge;
     border-color: rgba(250, 250, 250, 0.531);
     background-color: rgb(255, 255, 255);
-    width: 580px;
     height: 38px;
+    padding: 0 0 0 40px;
+    background-color: transparent;
+    position: relative;
+    width: 38vw;
+    z-index: 2;
 }
 .search:focus{
     outline: none;
@@ -95,10 +99,9 @@ a img{
 }
 .main{
     display:flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 500px;  
+    align-items: center; 
 }
 .leguage{
     display: flex;
@@ -111,19 +114,18 @@ a img{
 }
 .input-container{
     position: relative;
-    width: 100%;
 }
-label img{
-    width: 19px;
-}
-label{
+.icons-container{
+    z-index: 1;
     position: absolute;
-    top: 12px;
-    left: 17px;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 25%;
+    margin-left: 15px;
+    width: 39vw;
 }
-.label-icon{
-    left: 550px;   
+.icons-container img{
+    width: 19px;
 }
 footer{
     position: relative;
