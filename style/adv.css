@@ -127,6 +127,17 @@ section header ul button img {
     width: 60%;
     margin-left: 30px;
 }
+.text-container p a{
+    text-decoration:none
+}
+.text-container p {
+    margin: 0%;
+}
+.text-adv{
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 15px;
+}
 /* css footer*/
 footer{
     background-color: rgb(244, 244, 244); 
@@ -198,6 +209,6 @@ div ul li a:hover{
 div ul {
     list-style: none;
 } 
-.linha{
+.linea{
     border-bottom: 1px rgba(158, 158, 158, 0.267) solid;
 }
