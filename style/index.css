@@ -123,7 +123,7 @@ main{
     z-index: 1;
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     top: 25%;
     margin-left: 15px;
     width: 39vw;
@@ -131,6 +131,7 @@ main{
 .icons-container img{
     width: 19px;
 }
+
 /* css footer*/
 footer{
     background-color: rgb(244, 244, 244); 
