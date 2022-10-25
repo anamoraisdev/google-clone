@@ -135,15 +135,12 @@ section header ul button img {
 }
 .text-adv{
     margin-left: 20px;
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 15px;
 }
 /* css footer*/
 footer{
     background-color: rgb(244, 244, 244); 
-    position: relative;
-    top: 173px;
-    height: 88px;
 }
 footer div{
     display: flex;
@@ -210,5 +207,9 @@ div ul {
     list-style: none;
 } 
 .linea{
+    border-bottom: 1px rgba(158, 158, 158, 0.267) solid;
+}
+.linea-end{
+    margin-top: 70px;
     border-bottom: 1px rgba(158, 158, 158, 0.267) solid;
 }
