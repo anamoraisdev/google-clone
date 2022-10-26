@@ -93,19 +93,6 @@ section header ul button img {
     font-size: 16px;
     color: black;
 }
-.footer-div{
-    height: 50px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.footer-div-p{
-    display:flex;
-    justify-content: flex-start;
-}
-.footer-div-p p{
-    align-items: center;
-}
 
 /* pesquisa */
 .main-div {
@@ -150,6 +137,19 @@ section header ul button img {
     font-size: 15px;
 }
 /* css footer*/
+.footer-div{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-div-p{
+    display:flex;
+    justify-content: flex-start;
+}
+.footer-div-p p{
+    align-items: center;
+}
 footer{
     background-color: rgb(244, 244, 244);
     padding-left: 2.5%;
@@ -243,12 +243,10 @@ div ul {
         justify-content: center;
     }
     footer ul{
+        flex-direction: row;
         justify-content: flex-start;
     }
-    footer ol{
-        justify-content: flex-start;
-    }
-    
+  
     .how{
         visibility: hidden;
     }
