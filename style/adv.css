@@ -99,6 +99,13 @@ section header ul button img {
     width: 100%;
     justify-content: space-between;
 }
+.footer-div-p{
+    display:flex;
+    justify-content: flex-start;
+}
+.footer-div-p p{
+    align-items: center;
+}
 
 /* pesquisa */
 .main-div {
@@ -188,7 +195,7 @@ footer ol li a{
 footer ol li a:hover{
     text-decoration: underline; 
 }
-.p{
+footer p{
     color: rgb(96, 95, 95);
     font-size: 15px;
     text-decoration: none;
@@ -271,9 +278,22 @@ div ul {
     }
     .footer-div{
         display: block;
+        margin-left: 5%;
         height: 80px;
     }
-
+    .footer-div-p{
+        display:flex;
+        justify-content: flex-start;
+        margin-left: 5%;
+        height: 50px;
+    }
+    .footer-div-p p{
+        align-items: center;
+    }
+    .text-subtitle{
+        margin-left: 5%;
+        width: 50%;
+    }
 }
     
     
