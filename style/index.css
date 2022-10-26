@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    font-family: Arial, sans-serif;  
+    font-family: Arial, sans-serif; 
+    border: 1px black solid;
 }
 /* css header */
 .menu{
@@ -35,7 +36,7 @@ section header ul button{
 section header ul button:hover{
     background-color: rgba(46, 84, 210, 0.866);
 }
-section header ul button img {
+.buttongrid img {
     width: 17px;
 }
 .buttongrid{
@@ -193,4 +194,65 @@ footer p{
 .linea{
     border-bottom: 1px rgba(158, 158, 158, 0.267) solid;
     margin: 4px;
+}
+@media screen and (max-width:375px) {
+    section header ul button{
+        padding: 8px 15px;
+        font-size: 10px;
+    }    
+    section header ul li a{
+        font-size: 10px;
+    }
+    .buttongrid{
+        padding: 10px 12px;
+    }
+    .buttongrid img{
+        width: 14px;
+    }
+    .logo-container{
+        display: fle;
+    }
+    .logo-container img a {
+        display: flex;
+    }
+    .logo-container img{
+        width: 65%;
+        margin-left: 15%;
+    }
+    .search{
+        width: 100%;
+        padding: 0%;
+        height: 30px;
+    }
+    footer div{
+        display: grid;
+        justify-content: center;
+    }
+    footer ul{
+        justify-content: flex-start;
+    }
+    footer ol{
+        justify-content: flex-start;
+    }
+    .footer-div{
+        display: block;
+        margin-left: 5%;
+        height: 80px;
+    }
+    .footer-div-p{
+        display:flex;
+        justify-content: flex-start;
+        margin-left: 5%;
+        height: 50px;
+    }
+    .footer-div-p p{
+        align-items: center;
+    }
+    .text-subtitle{
+        margin-left: 5%;
+        width: 50%;
+    }
+    .leguage{
+        font-size: 9px;
+    }
 }
