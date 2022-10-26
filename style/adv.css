@@ -221,7 +221,7 @@ div ul {
 
 /* Media query */
 
-@media screen and (max-width:667px) {
+@media screen and (max-width:480px) {
     body{
         margin: 0%;
     }
@@ -254,10 +254,6 @@ div ul {
     
     .how{
         visibility: hidden;
-    }
-    .p{
-        left: 40px;
-        width: 100px;
     }
     header ul li{
         visibility: hidden;
@@ -294,6 +290,27 @@ div ul {
         margin-left: 5%;
         width: 50%;
     }
+}
+
+@media screen and (max-width:820px){
+    .text-subtitle{
+        margin-left: 2%;
+    }
+    .button{
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+    .form-value{
+        width: 80%;
+    }
+    .container-search{
+        flex-direction: column;
+    }
+    .form-search{
+        width: 100%;
+        margin: 0;
+    }
+
 }
     
     
