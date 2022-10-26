@@ -1,22 +1,19 @@
 /* CSS header */
 body{
+    margin: 0%;
     font-family: Arial, sans-serif;
+    border: 1px black solid;
 }
 .imgadv{
-    width: 100px;
     display:flex;
-    width: 6%;
-    position: relative;
-    left:10px;
-}
-button img{
-    width: 2px;
+    margin-left:10px;
+    margin-top: 25px;
+    width: 100px;
 }
 section header{
     position: absolute;
     top: 0;
     width: 98%;
-    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -86,23 +83,29 @@ section header ul button img {
     background-color: rgba(46, 84, 210, 0.866);
 }
 .text-title{
-    position: relative;
     color: rgb(207, 39, 39);
     font-size: 20px;
-    left: 30px;
+    margin-left: 30px;
+    
 }
 
 .text-subtitle{
     font-size: 16px;
-    position: relative;
     color: black;
-    left: 30px;
-    top: 20px;
 }
+.footer-div{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 /* pesquisa */
+.main-div {
+    margin-left: 2%;
+}
 .form-search{
     display: flex;
-    flex-direction: column;
     margin: 10px;
     width: 560px;
     height: 25px;
@@ -134,16 +137,16 @@ section header ul button img {
     margin: 0%;
 }
 .text-adv{
-    margin-left: 20px;
+    margin-left: 35px;
     margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 15px;
 }
 /* css footer*/
 footer{
-    background-color: rgb(244, 244, 244); 
-}
-footer div{
-    display: flex;
+    background-color: rgb(244, 244, 244);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 footer ul{
     display: flex;
@@ -154,6 +157,7 @@ footer ul{
     list-style: none;
     margin: 0;
     left: 100px;
+    padding: 0;
 }
 footer ol{
     display: flex;
@@ -163,6 +167,7 @@ footer ol{
     list-style: none;
     margin: 0;
     width: 75%;
+    padding: 0;
 }
 footer ul li a{
     color: rgb(96, 95, 95);
@@ -183,17 +188,10 @@ footer ol li a{
 footer ol li a:hover{
     text-decoration: underline; 
 }
-footer p{
-    position: relative;
+.p{
     color: rgb(96, 95, 95);
     font-size: 15px;
     text-decoration: none;
-    width: 100%;
-    height: 30px;
-}
-.p{
-    top: 12px;
-    left: 20px;
 }
 div ul li a{
     font-size: 15px;
@@ -213,3 +211,70 @@ div ul {
     margin-top: 70px;
     border-bottom: 1px rgba(158, 158, 158, 0.267) solid;
 }
+
+/* Media query */
+
+@media screen and (max-width:667px) {
+    body{
+        margin: 0%;
+    }
+    .imgadv{
+        width: 80px;
+        margin-top: 23px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    header{
+        max-width: 375px;
+    }
+    section header ul button{
+         padding: 10px 20px;
+         font-size: 12px;
+    }
+    footer{
+        
+    }
+    footer div{
+        display: grid;
+        justify-content: center;
+    }
+    footer ul{
+        justify-content: flex-start;
+    }
+    footer ol{
+        justify-content: flex-start;
+    }
+    
+    .how{
+        visibility: hidden;
+    }
+    .p{
+        left: 40px;
+        width: 100px;
+    }
+    header ul li{
+        visibility: hidden;
+    }
+    .container-search{
+        flex-direction: column;
+        width: 300px;
+    }
+    .form-search{
+        width: 100%;
+        margin: 0;
+    }
+    .button{
+        margin-top: 10px;
+    }
+    .text-container p a {
+        font-size: 12px ;
+    }
+    .footer-div{
+        display: block;
+        height: 80px;
+    }
+
+}
+    
+    
+
