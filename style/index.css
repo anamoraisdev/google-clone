@@ -148,6 +148,7 @@ main{
 }
 .footer-div-p p{
     align-items: center;
+    color: gray;
 }
 footer{
     background-color: rgb(244, 244, 244);
@@ -173,6 +174,7 @@ footer ol{
     list-style: none;
     margin: 0;
     width: 75%;
+    padding: 0%;
 }
 footer ul li a{
     color: rgb(96, 95, 95);

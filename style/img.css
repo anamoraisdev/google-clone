@@ -152,6 +152,7 @@ footer ol{
     list-style: none;
     margin: 0;
     width: 75%;
+    padding: 10px 20px;
 }
 footer ul li a{
     color: rgb(96, 95, 95);
@@ -184,6 +185,11 @@ footer p{
     top: 12px;
     left: 20px;
 }
+.linea{
+    border-bottom: 1px rgba(158, 158, 158, 0.267) solid;
+    margin: 4px;
+}
+
 
 @media screen and (max-width:480px) {
     main{
